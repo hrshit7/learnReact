@@ -15,6 +15,8 @@
  * <div>
  */
 
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement(
     "div", 
@@ -28,9 +30,9 @@ const parent = React.createElement(
             "I am h1 tag"
         ),
         React.createElement(
-            "h1", 
+            "h2", 
             {}, 
-            "I am h1 tag"
+            "I am h2 tag"
         )
     ]
     ),
@@ -43,9 +45,9 @@ const parent = React.createElement(
             "I am h1 tag"
         ),
         React.createElement(
-            "h1", 
+            "h2", 
             {}, 
-            "I am h1 tag"
+            "I am h2 tag"
         )
     ]
     )
